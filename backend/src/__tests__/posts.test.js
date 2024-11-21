@@ -1,6 +1,6 @@
 import { describe, expect, test, beforeEach } from '@jest/globals'
 import mongoose from 'mongoose'
-import { Post } from '../db/models/post'
+import { Post } from '../db/models/post.js'
 import {
   createPost,
   listAllPosts,
